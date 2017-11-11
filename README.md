@@ -12,7 +12,7 @@ ANSON is a JSON inspired text object notation to make it more strictly-typed as 
 - Arrays, Tuples and recursively objects.
 
 ## `Example`
-```json
+```
 {
     // it's single line comment
     /* it's block 
