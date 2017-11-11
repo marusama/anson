@@ -9,7 +9,7 @@ ANSON is a JSON inspired text object notation to make it more strictly-typed as 
 - Supports a lot of standard types include such as numbers, boolean, datetime and strings;
 - Has comments using the standard comment convention around;
 - No need to quote property name;
-- Arrays, Tuples and recursively objects.
+- Arrays, tuples and objects.
 
 ## `Example`
 ```
