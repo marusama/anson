@@ -14,7 +14,6 @@ ANSON is a JSON inspired text object notation to make it more strictly-typed as 
 ## `Example`
 ```
 {
-    // bill #5643
     id: 5643u
     customer: "John Doe"
     sell_datetime: @2017-07-23T12:14:33.079+03:00
@@ -36,7 +35,7 @@ ANSON is a JSON inspired text object notation to make it more strictly-typed as 
             price: $19.95
         }
     ]
-    total: $69.93
+    total: $69.93   // VAT included
 }
 ```
 
