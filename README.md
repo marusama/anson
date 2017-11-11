@@ -14,6 +14,30 @@ ANSON is a JSON inspired text object notation to make it more strictly-typed as 
 ## `Example`
 ```
 {
+    customer: "John Doe"
+    date: @2017-07-23T12:14:33.079+03:00
+    books: [
+        {
+            id: 1
+            title: "Pride and Prejudice"
+            date_of_print: #2017-02-01
+            is_new: true
+            price: $49.98
+        },
+        {
+            id: 2
+            title: "Gone with the Wind"
+            date_of_print: #2017-03-01
+            is_new: false
+            price: $19.95
+        }
+    ]
+}
+```
+
+## `Big example`
+```
+{
     // it's single line comment
     /* it's block 
     comment */
