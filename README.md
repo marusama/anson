@@ -3,12 +3,14 @@ ANSON - typed object notation inspired by JSON and YAML
 
 ## `Rational`
 
-ANSON is a JSON and YAML inspired text object notation to make it more strictly-typed as possible.  It makes a great data storage format for any type of data that humans will edit.
+ANSON is an JSON & YAML inspired text object notation to make it more strictly-typed as possible.  It makes a great data storage format for any type of data that humans will edit.
 
 - It looks like JSON with simplified YAML elements;
 - Supports a lot of standard types include such as numbers, boolean, datetime and strings;
 - Has comments using the standard comment convention around;
-- No need to quote property name;
+- No need to quote property name (unlike JSON);
+- No need to add comma at the end of line (unlike JSON);
+- No significant spaces at the begin of line (unlike YAML);
 - Has arrays, tuples and objects.
 
 ## `Example`
