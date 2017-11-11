@@ -14,7 +14,7 @@ ANSON is a JSON inspired text object notation to make it more strictly-typed as 
 ## `Example`
 ```
 {
-    id: 5643u
+    id: 5643
     customer: "John Doe"
     sell_datetime: @2017-07-23T12:14:33.079+03:00
     books: [
