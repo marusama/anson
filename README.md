@@ -18,20 +18,23 @@ ANSON is a JSON inspired text object notation to make it more strictly-typed as 
     sell_datetime: @2017-07-23T12:14:33.079+03:00
     books: [
         {
-            id: 1
+            id: 52323
+            section: ("best sellers", 1)
             title: "Pride and Prejudice"
             date_of_print: #2017-02-01
-            is_new: true
+            has_discount: true
             price: $49.98
         },
         {
-            id: 2
+            id: 154563
+            section: ("literature", "classic", "novels")
             title: "Gone with the Wind"
             date_of_print: #2017-03-01
-            is_new: false
+            has_discount: false            
             price: $19.95
         }
     ]
+    total: $69.93
 }
 ```
 
